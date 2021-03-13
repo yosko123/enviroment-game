@@ -14,14 +14,14 @@ public class MouseOver : MonoBehaviour
     void OnMouseOver()
     {
         s_Renderer.material.color = m_MouseOverSprite;
-        Debug.Log("Mouse is over GameObject.");
+      
 
     }
 
     void OnMouseExit()
     {
         s_Renderer.material.color = m_OriginalColor;
-        Debug.Log("Mouse is no longer on GameObject.");
+       
 
     }
 }
